@@ -1,5 +1,6 @@
 import { ArrowLeftOutlined, ArrowRightOutlined } from '@material-ui/icons'
 import { React, useState } from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 // import data for slider
@@ -122,6 +123,14 @@ const Slider = () => {
             </Arrow>
         </Container>
     )
+}
+
+Slider.displayName = 'Slider'
+
+Slider.propTypes = {
+    direction: PropTypes.string,
+    bg: PropTypes.string,
+    sliderIndex: PropTypes.number,
 }
 
 export default Slider
