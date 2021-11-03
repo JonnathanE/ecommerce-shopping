@@ -21,3 +21,21 @@ export const sliderItems = [
         bg: 'fbf0f4',
     }
 ]
+
+export const categories = [
+    {
+        id: 1,
+        img: 'https://cdn.shopify.com/s/files/1/0981/8178/files/same-color-dressing-navy-collarless.jpg?14098627195229007551',
+        title: 'SHIRT STYLE!'
+    },
+    {
+        id: 2,
+        img: 'https://cdn.hiconsumption.com/wp-content/uploads/2021/01/Best-Lightweight-Jackets-For-Men-0-Hero.jpg',
+        title: 'LIGHT JACKETS'
+    },
+    {
+        id: 3,
+        img: 'https://http2.mlstatic.com/D_NQ_NP_747834-MPE45187974960_032021-O.jpg',
+        title: 'COSPLAY'
+    }
+]
