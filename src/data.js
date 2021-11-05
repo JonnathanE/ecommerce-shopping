@@ -55,5 +55,15 @@ export const popularProducts = [
         id: 3,
         img: 'https://http2.mlstatic.com/D_NQ_NP_747834-MPE45187974960_032021-O.jpg',
         title: 'COSPLAY'
+    },
+    {
+        id: 4,
+        img: 'https://http2.mlstatic.com/D_NQ_NP_747834-MPE45187974960_032021-O.jpg',
+        title: 'COSPLAY'
+    },
+    {
+        id: 5,
+        img: 'https://http2.mlstatic.com/D_NQ_NP_747834-MPE45187974960_032021-O.jpg',
+        title: 'COSPLAY'
     }
 ]
