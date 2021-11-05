@@ -1,5 +1,6 @@
 import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } from '@material-ui/icons';
 import React from 'react'
+import PropTypes from 'prop-types'
 import styled from 'styled-components'
 
 const Container = styled.div`
@@ -112,6 +113,12 @@ const Footer = () => {
             </Right>
         </Container>
     )
+}
+
+Footer.displayName = 'Footer'
+
+Footer.propTypes = {
+    color: PropTypes.string,
 }
 
 export default Footer
