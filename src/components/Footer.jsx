@@ -2,9 +2,11 @@ import { Facebook, Instagram, MailOutline, Phone, Pinterest, Room, Twitter } fro
 import React from 'react'
 import PropTypes from 'prop-types'
 import styled from 'styled-components'
+import { mobile } from '../responsive';
 
 const Container = styled.div`
     display: flex;
+    ${mobile({ flexDirection: "column" })}
 `;
 
 const Left = styled.div`
@@ -33,12 +35,13 @@ const SocialIcon = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 20px;
+    margin-right: 20px;
 `;
 
 const Center = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({ display: "none" })}
 `;
 
 const Title = styled.h3`
@@ -62,6 +65,7 @@ const ListItem = styled.li`
 const Right = styled.div`
     flex: 1;
     padding: 20px;
+    ${mobile({ backgroundColor: "#fff8f8" })}
 `;
 
 const ContactItem = styled.div`
