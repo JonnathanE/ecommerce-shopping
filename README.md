@@ -1,6 +1,67 @@
-# Getting Started with Create React App
+# Ecommerce Shopping
+The next project is a clothing store ecommerce
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Authors
+
+- [Jonnathan Espinoza](https://github.com/JonnathanE)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/JonnathanE)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://github.com/JonnathanE)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/JonnathanE1)
+
+
+## Tech Stack
+
+**Client:** React, styled-components
+
+**Server:** Node, Express
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm run start
+```
+
+## Screenshots
+
+![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| DARK PRIMARY COLOR | ![#00796B](https://via.placeholder.com/10/00796B?text=+) #00796B |
+| LIGHT PRIMARY COLOR | ![#B2DFDB](https://via.placeholder.com/10/B2DFDB?text=+) #B2DFDB |
+| PRIMARY COLOR | ![#009688](https://via.placeholder.com/10/009688?text=+) #009688 |
+| TEXT / ICONS | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| ACCENT COLOR | ![#ffffff](https://via.placeholder.com/10/009688?text=+) #009688 |
+| PRIMARY TEXT | ![#212121](https://via.placeholder.com/10/212121?text=+) #212121 |
+| SECONDARY TEXT | ![#757575](https://via.placeholder.com/10/757575?text=+) #757575 |
+| DIVIDER COLOR | ![#BDBDBD](https://via.placeholder.com/10/BDBDBD?text=+) #BDBDBD |
+
 
 ## Available Scripts
 
