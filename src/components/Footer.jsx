@@ -74,6 +74,10 @@ const ContactItem = styled.div`
     align-items: center;
 `;
 
+const EmailImage = styled.img`
+    width: 70%;
+`;
+
 const Payment = styled.img`
     width: 50%;
 `;
@@ -112,7 +116,7 @@ const Footer = () => {
                 <Title>Contact</Title>
                 <ContactItem><Room style={{ marginRight: '10px' }} /> Loja-Ecuador, Center</ContactItem>
                 <ContactItem><Phone style={{ marginRight: '10px' }} /> 000 000</ContactItem>
-                <ContactItem><MailOutline style={{ marginRight: '10px' }} /> jonnathan.espinoza@unl.edu.ec</ContactItem>
+                <ContactItem><MailOutline style={{ marginRight: '10px' }} /> <EmailImage src="assets/email_institucional.png" alt="" /></ContactItem>
                 <Payment src='https://i.ibb.co/Qfvn4z6/payment.png' />
             </Right>
         </Container>
