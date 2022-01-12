@@ -26,17 +26,20 @@ export const categories = [
     {
         id: 4,
         img: 'https://cdn.shopify.com/s/files/1/0981/8178/files/same-color-dressing-navy-collarless.jpg?14098627195229007551',
-        title: 'SHIRT STYLE!'
+        title: 'SHIRT STYLE!',
+        cat: 'shirt'
     },
     {
         id: 5,
         img: 'https://cdn.hiconsumption.com/wp-content/uploads/2021/01/Best-Lightweight-Jackets-For-Men-0-Hero.jpg',
-        title: 'LIGHT JACKETS'
+        title: 'LIGHT JACKETS',
+        cat: 'jeans'
     },
     {
         id: 6,
         img: 'https://images.unsplash.com/photo-1595828204607-0d09afb58a71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80',
-        title: 'BLOUSE'
+        title: 'BLOUSE',
+        cat: 'women'
     }
 ]
 
