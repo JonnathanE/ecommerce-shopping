@@ -27,7 +27,7 @@ export const categories = [
         id: 4,
         img: 'https://cdn.shopify.com/s/files/1/0981/8178/files/same-color-dressing-navy-collarless.jpg?14098627195229007551',
         title: 'SHIRT STYLE!',
-        cat: 'shirt'
+        cat: 'man'
     },
     {
         id: 5,

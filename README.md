@@ -18,6 +18,11 @@ The next project is a clothing store ecommerce
 
 **Server:** Node, Express
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`REACT_APP_API_URL`=serverURL/api
 
 ## Run Locally
 
