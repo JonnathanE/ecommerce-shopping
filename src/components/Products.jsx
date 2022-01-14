@@ -4,9 +4,6 @@ import Product from './Product';
 import axios from 'axios'
 import { API } from '../config'
 
-// import data for slider
-import { popularProducts } from '../data';
-
 const Container = styled.div`
     padding: 20px;
     display: flex;
@@ -64,10 +61,10 @@ const Products = ({ category, filters, sort }) => {
         <Container>
             {category
                 ? filterProducts.map(item => (
-                    <Product item={item} key={item.id} />
+                    <Product item={item} key={item._id} />
                 ))
                 : products.slice(0, 8).map(item => (
-                    <Product item={item} key={item.id} />
+                    <Product item={item} key={item._id} />
                 ))
             }
         </Container>
