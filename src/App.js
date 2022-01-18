@@ -12,6 +12,7 @@ import Product from './pages/Product'
 import Register from './pages/Register'
 import Login from './pages/Login'
 import Cart from './pages/Cart'
+import { Success } from './pages/Success';
 
 function Redirect({ to }) {
   let navigate = useNavigate();
@@ -32,6 +33,7 @@ function App() {
         </Route>
         <Route path='/product/:id' element={<Product />} />
         <Route path='/cart' element={<Cart />} />
+        <Route path='/success' element={<Success />} />
         <Route path='/login' element={user ? <Redirect to="/" /> : <Login />} />
         <Route path='/register' element={user ? <Redirect to="/" /> : <Register />} />
       </Routes>
