@@ -1,5 +1,10 @@
 # Ecommerce Shopping
-The next project is a clothing store ecommerce
+The next project is a clothing store ecommerce.
+
+The project is built in React. The API and admin dashboard are below:
+
+- API: https://github.com/JonnathanE/api-ecommerce-shopping.git
+- ADMIN DASHBOARD: https://github.com/JonnathanE/admin-dashboard-ecommerce-shopping.git
 
 ## Authors
 
@@ -16,13 +21,15 @@ The next project is a clothing store ecommerce
 
 **Client:** React, styled-components
 
-**Server:** Node, Express
+**Server:** Node v14.18.0, Express
 
 ## Environment Variables
 
 To run this project, you will need to add the following environment variables to your .env file
 
-`REACT_APP_API_URL`=serverURL/api
+`REACT_APP_API_URL`=(the backend server url: serverURL/api)
+
+`REACT_APP_STRIPE`=(stripe public key)
 
 ## Run Locally
 
@@ -47,12 +54,17 @@ Install dependencies
 Start the server
 
 ```bash
-  npm run start
+  npm start
 ```
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![React App](https://user-images.githubusercontent.com/33469147/153261616-d403dc54-5655-4707-864c-381db3390f86.png)
+
+![cart](https://user-images.githubusercontent.com/33469147/153261969-06d62d96-8c6b-4354-960d-ff73970d97ce.png)
+
+![stripe](https://user-images.githubusercontent.com/33469147/153262120-919218c2-3c9b-4baa-9600-0ffc7b335d3a.png)
+
 
 ## Color Reference
 
