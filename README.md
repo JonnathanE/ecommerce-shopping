@@ -1,6 +1,84 @@
-# Getting Started with Create React App
+# Ecommerce Shopping
+The next project is a clothing store ecommerce.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The project is built in React. The API and admin dashboard are below:
+
+- API: https://github.com/JonnathanE/api-ecommerce-shopping.git
+- ADMIN DASHBOARD: https://github.com/JonnathanE/admin-dashboard-ecommerce-shopping.git
+
+## Authors
+
+- [Jonnathan Espinoza](https://github.com/JonnathanE)
+
+
+## 🔗 Links
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://github.com/JonnathanE)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jonnathan-espinoza-604a41226)
+[![twitter](https://img.shields.io/badge/twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/JonnathanE1)
+
+
+## Tech Stack
+
+**Client:** React, styled-components
+
+**Server:** Node v14.18.0, Express
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`REACT_APP_API_URL`=(the backend server url: serverURL/api)
+
+`REACT_APP_STRIPE`=(stripe public key)
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://link-to-project
+```
+
+Go to the project directory
+
+```bash
+  cd my-project
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Start the server
+
+```bash
+  npm start
+```
+
+## Screenshots
+
+![React App](https://user-images.githubusercontent.com/33469147/153261616-d403dc54-5655-4707-864c-381db3390f86.png)
+
+![cart](https://user-images.githubusercontent.com/33469147/153261969-06d62d96-8c6b-4354-960d-ff73970d97ce.png)
+
+![stripe](https://user-images.githubusercontent.com/33469147/153262120-919218c2-3c9b-4baa-9600-0ffc7b335d3a.png)
+
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| DARK PRIMARY COLOR | ![#00796B](https://via.placeholder.com/10/00796B?text=+) #00796B |
+| LIGHT PRIMARY COLOR | ![#B2DFDB](https://via.placeholder.com/10/B2DFDB?text=+) #B2DFDB |
+| PRIMARY COLOR | ![#009688](https://via.placeholder.com/10/009688?text=+) #009688 |
+| TEXT / ICONS | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) #ffffff |
+| ACCENT COLOR | ![#ffffff](https://via.placeholder.com/10/009688?text=+) #009688 |
+| PRIMARY TEXT | ![#212121](https://via.placeholder.com/10/212121?text=+) #212121 |
+| SECONDARY TEXT | ![#757575](https://via.placeholder.com/10/757575?text=+) #757575 |
+| DIVIDER COLOR | ![#BDBDBD](https://via.placeholder.com/10/BDBDBD?text=+) #BDBDBD |
+
 
 ## Available Scripts
 
